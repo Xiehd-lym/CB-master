@@ -1,0 +1,49 @@
+.boughtDiv {
+    max-width: 980px;
+    margin: 10px auto;
+}
+.orderType div {
+    border-bottom: 2px solid #e8e8e8;
+    float: left;
+}
+.orderType a {
+    border-right: 1px solid #e8e8e8;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+    padding: 0 20px;
+    text-decoration: none;
+}
+.orderType a:hover {
+    color: #ff0036;
+    text-decoration: none;
+}
+.orderType .selectOrderType {
+    border-bottom: 2px solid #ff0036;
+}
+.orderType .selectOrderType a {
+    color: #ff0036;
+}
+.orderTypeLastOne {
+    overflow: hidden;
+    float: none !important;
+    border-bottom: 2px solid #e8e8e8;
+    height: 27px;
+}
+.noRightborder {
+    border-right-width: 0 !important;
+}
+
+.orderListTitleTable {
+    border: 1px solid #e8e8e8;
+    width: 100%;
+    margin: 20px 0;
+    background-color: #f5f5f5;
+    text-align: center;
+    font-size: 12px;
+}
+.orderListTitleTable td {
+    padding: 12px 0;
+}
